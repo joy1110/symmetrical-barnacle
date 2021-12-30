@@ -1,0 +1,25 @@
+.swiper-pagination{
+    display: flex;
+    justify-content: space-between;
+    width: 80px !important;
+    margin: 0 auto;
+    left: 50% !important;
+    transform: translateX(-50%);
+    bottom: 100px !important;
+
+    @media(max-width: 767.98px){
+        bottom: 50px !important;
+    }
+
+    .swiper-pagination-bullet{
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border: 1px solid #000;
+        background: transparent;
+        opacity: 1;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: black !important;
+    }
+}
